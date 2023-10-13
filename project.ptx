@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Managed automatically by PreTeXt authoring tools -->
-<!-- (delete the above line to manage this file manually) -->
 <!--
     This file, the project manifest, provides the overall configuration for
     your PreTeXt project. To edit the content of your document, open
@@ -9,8 +7,8 @@
 -->
 <project ptx-version="2">
   <targets>
-    <target name="web" format="html"/>
-    <target name="print" format="pdf"/>
+    <target name="web" format="html" deploy-dir="."/>
+    <target name="print" format="pdf" deploy-dir="./print"/>
     <target name="print-latex" format="latex"/>
   </targets>
 </project>
