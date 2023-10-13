@@ -5,4 +5,47 @@
 
   <p> Text of section. </p>
 
+  <p>An dsaf quation: <m>x^2+y^2=\frac{z^2}{2}</m></p>
+
+  <p>A big equation: <me>x^2+y^2=\frac{z^2}{2}</me></p>
+
+  <remark>
+    <title>Heya</title>
+    <p>PreTeXt is cool</p>
+  </remark>
+
+  <p>
+    Here is the number <m>1</m>:
+    <image source="1.png" width="80%">
+      <description>a crudely hand-drawn digit 1</description>
+    </image>
+  </p>
+
+  <figure xml:id="my-number-two">
+    <image source="2.png" width="80%">
+      <description>a crudely hand-drawn digit 2</description>
+    </image>
+    <caption>A nicely drawn digit <m>2</m></caption>
+  </figure>
+
+  <figure xml:id="my-number-three">
+    <image source="3.png" width="80%">
+      <description>a crudely hand-drawn digit 3</description>
+    </image>
+    <caption>A nicely drawn digit <m>3</m></caption>
+  </figure>
+
+  <figure xml:id="my-tikz-figure">
+    <image width="80%">
+      <latex-image>
+        \begin{tikzpicture}
+        \draw[color=red] (0,0) circle (1);
+        \draw[color=blue] (0,0) circle (2);
+        \end{tikzpicture}
+      </latex-image>
+      <description>two circles, a red circle of half-radius centered inside a blue circle</description>
+    </image>
+    <caption>An example of Tikz</caption>
+  </figure>
+
 </section>

@@ -6,9 +6,9 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
+      <personname>Steven Clontz</personname>
+      <department>Dept of PreTeXt</department>
+      <institution>PreTeXtBook.org</institution>
     </author>
     <date>
       <today />
